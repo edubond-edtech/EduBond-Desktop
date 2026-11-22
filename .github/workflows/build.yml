@@ -41,8 +41,12 @@ jobs:
           if (-not $iscc) { $iscc = "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" }
           $ver = "0.1.0"
           if ($env:GITHUB_REF_TYPE -eq "tag") { $ver = $env:GITHUB_REF_NAME.TrimStart("v") }
-          & $iscc /Q "/DAppVersion=$ver" packaging/edukit.iss
+          Write-Host "Inno Setup compiler: $iscc  version: $ver"
+          & $iscc "/DAppVersion=$ver" packaging/edukit.iss
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $setup = Get-ChildItem dist/installer -Filter "EduKit-Setup-*.exe" -ErrorAction SilentlyContinue
+          if (-not $setup) { Write-Error "EduKit-Setup.exe was not produced"; Get-ChildItem -Recurse dist -Filter *.exe | Select-Object FullName; exit 1 }
+          Write-Host "Installer: $($setup.FullName)"
           Compress-Archive -Path dist/EduKit/* -DestinationPath dist/EduKit-portable-windows.zip
       - uses: actions/upload-artifact@v4
         with:
@@ -50,6 +54,7 @@ jobs:
           path: |
             desktop/dist/installer/EduKit-Setup-*.exe
             desktop/dist/EduKit-portable-windows.zip
+          if-no-files-found: error
 
   macos:
     runs-on: macos-latest
