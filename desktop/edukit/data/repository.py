@@ -199,8 +199,11 @@ class Repository:
         with self._lock:
             return self._db.execute(sql, params).fetchall()
 
+    closed = False
+
     def close(self) -> None:
         with self._lock:
+            self.closed = True
             self._db.close()
 
     # ------------------------------------------------------------- settings

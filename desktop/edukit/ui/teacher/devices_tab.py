@@ -386,6 +386,8 @@ class DevicesTab(QWidget):
         self.log.appendPlainText(f"{time.strftime('%H:%M:%S')}  [{level}] {dev}: {text}")
 
     def refresh(self) -> None:
+        if getattr(self.ctx.repo, "closed", False):
+            return  # a late device event after the app (or a test window) shut down
         types = device_types(self.ctx.repo)
         statuses = [s for s in self.ctx.devices.statuses() if s.transport != "sim" or self.ctx.simulation_enabled]
         self.table.setRowCount(len(statuses))
