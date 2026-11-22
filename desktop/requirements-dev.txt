@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=8
+pytest-qt>=4.4
+platformio>=6.1   # optional: compile ESP32 firmware from the command line
+pyinstaller>=6.0  # optional: build a standalone app
+pillow>=10    # tests (images)

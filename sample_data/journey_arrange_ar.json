@@ -1,0 +1,566 @@
+{
+ "format": "edukit-question-bank",
+ "version": 1,
+ "bank": {
+  "name": "رحلة إلى مكة — ترتيب الكلمات",
+  "subject": "اللغة العربية",
+  "grade": "الصف الثالث - الخامس"
+ },
+ "questions": [
+  {
+   "code": "Q101",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "سافر"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "الحجاج"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "من"
+     }
+    },
+    {
+     "key": "4",
+     "text": {
+      "ar": "إندونيسيا"
+     }
+    },
+    {
+     "key": "5",
+     "text": {
+      "ar": "إلى"
+     }
+    },
+    {
+     "key": "6",
+     "text": {
+      "ar": "مكة"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "explanation": {
+    "ar": "سافر الحجاج من إندونيسيا إلى مكة"
+   }
+  },
+  {
+   "code": "Q102",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "ذهب"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "الطالب"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "إلى"
+     }
+    },
+    {
+     "key": "4",
+     "text": {
+      "ar": "المدرسة"
+     }
+    },
+    {
+     "key": "5",
+     "text": {
+      "ar": "صباحا"
+     }
+    },
+    {
+     "key": "6",
+     "text": {
+      "ar": "مبكرا"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "explanation": {
+    "ar": "ذهب الطالب إلى المدرسة صباحا مبكرا"
+   }
+  },
+  {
+   "code": "Q103",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "يحب"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "المسلم"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "أن"
+     }
+    },
+    {
+     "key": "4",
+     "text": {
+      "ar": "يزور"
+     }
+    },
+    {
+     "key": "5",
+     "text": {
+      "ar": "مكة"
+     }
+    },
+    {
+     "key": "6",
+     "text": {
+      "ar": "المكرمة"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "explanation": {
+    "ar": "يحب المسلم أن يزور مكة المكرمة"
+   }
+  },
+  {
+   "code": "Q104",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "الكعبة"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "المشرفة"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "في"
+     }
+    },
+    {
+     "key": "4",
+     "text": {
+      "ar": "قلب"
+     }
+    },
+    {
+     "key": "5",
+     "text": {
+      "ar": "المسجد"
+     }
+    },
+    {
+     "key": "6",
+     "text": {
+      "ar": "الحرام"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "explanation": {
+    "ar": "الكعبة المشرفة في قلب المسجد الحرام"
+   }
+  },
+  {
+   "code": "Q105",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "نقرأ"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "القرآن"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "الكريم"
+     }
+    },
+    {
+     "key": "4",
+     "text": {
+      "ar": "كل"
+     }
+    },
+    {
+     "key": "5",
+     "text": {
+      "ar": "يوم"
+     }
+    },
+    {
+     "key": "6",
+     "text": {
+      "ar": "بخشوع"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "explanation": {
+    "ar": "نقرأ القرآن الكريم كل يوم بخشوع"
+   }
+  },
+  {
+   "code": "Q106",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "يساعد"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "الطفل"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "أمه"
+     }
+    },
+    {
+     "key": "4",
+     "text": {
+      "ar": "في"
+     }
+    },
+    {
+     "key": "5",
+     "text": {
+      "ar": "ترتيب"
+     }
+    },
+    {
+     "key": "6",
+     "text": {
+      "ar": "البيت"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "explanation": {
+    "ar": "يساعد الطفل أمه في ترتيب البيت"
+   }
+  },
+  {
+   "code": "Q107",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "الماء"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "نعمة"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "عظيمة"
+     }
+    },
+    {
+     "key": "4",
+     "text": {
+      "ar": "فلا"
+     }
+    },
+    {
+     "key": "5",
+     "text": {
+      "ar": "تسرف"
+     }
+    },
+    {
+     "key": "6",
+     "text": {
+      "ar": "فيه"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "explanation": {
+    "ar": "الماء نعمة عظيمة فلا تسرف فيه"
+   }
+  },
+  {
+   "code": "Q108",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "طلب"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "العلم"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "فريضة"
+     }
+    },
+    {
+     "key": "4",
+     "text": {
+      "ar": "على"
+     }
+    },
+    {
+     "key": "5",
+     "text": {
+      "ar": "كل"
+     }
+    },
+    {
+     "key": "6",
+     "text": {
+      "ar": "مسلم"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "explanation": {
+    "ar": "طلب العلم فريضة على كل مسلم"
+   }
+  },
+  {
+   "code": "Q109",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "بسم"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "الله"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "الرحمن"
+     }
+    },
+    {
+     "key": "4",
+     "text": {
+      "ar": "الرحيم"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "explanation": {
+    "ar": "بسم الله الرحمن الرحيم"
+   }
+  },
+  {
+   "code": "Q110",
+   "qtype": "arrange",
+   "time_limit_s": 90,
+   "points": 1,
+   "prompt": {
+    "ar": "رتّب الكلمات لتكوّن جملة صحيحة",
+    "en": "Arrange the words into a correct sentence"
+   },
+   "options": [
+    {
+     "key": "1",
+     "text": {
+      "ar": "رب"
+     }
+    },
+    {
+     "key": "2",
+     "text": {
+      "ar": "زدني"
+     }
+    },
+    {
+     "key": "3",
+     "text": {
+      "ar": "علما"
+     }
+    }
+   ],
+   "correct": [
+    "1",
+    "2",
+    "3"
+   ],
+   "explanation": {
+    "ar": "رب زدني علما"
+   }
+  }
+ ]
+}

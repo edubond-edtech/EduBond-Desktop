@@ -1,0 +1,421 @@
+{
+ "format": "edukit-question-bank",
+ "version": 1,
+ "bank": {
+  "name": "رحلة إلى مكة — أسئلة الاختيار",
+  "subject": "اللغة العربية",
+  "grade": "الصف الثالث - الخامس"
+ },
+ "questions": [
+  {
+   "code": "J001",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "ما عاصمة إندونيسيا؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "جاكرتا"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "كوالالمبور"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "القاهرة"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "الرياض"
+     }
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "explanation": {
+    "ar": "عاصمة إندونيسيا هي جاكرتا"
+   }
+  },
+  {
+   "code": "J002",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "في أي مدينة تقع الكعبة المشرفة؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "المدينة المنورة"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "مكة المكرمة"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "جدة"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "الطائف"
+     }
+    }
+   ],
+   "correct": [
+    "B"
+   ],
+   "explanation": {
+    "ar": "الكعبة المشرفة في مكة المكرمة"
+   }
+  },
+  {
+   "code": "J003",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "كم عدد أركان الإسلام؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "ثلاثة"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "أربعة"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "خمسة"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "ستة"
+     }
+    }
+   ],
+   "correct": [
+    "C"
+   ],
+   "explanation": {
+    "ar": "أركان الإسلام خمسة"
+   }
+  },
+  {
+   "code": "J004",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "ما أول سورة في القرآن الكريم؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "البقرة"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "الإخلاص"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "الناس"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "الفاتحة"
+     }
+    }
+   ],
+   "correct": [
+    "D"
+   ],
+   "explanation": {
+    "ar": "أول سورة في المصحف هي الفاتحة"
+   }
+  },
+  {
+   "code": "J005",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "ما جمع كلمة «كتاب»؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "كُتُب"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "كاتبون"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "مكتبة"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "كتابان"
+     }
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "explanation": {
+    "ar": "جمع كتاب: كُتُب"
+   }
+  },
+  {
+   "code": "J006",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "ما ضد كلمة «كبير»؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "طويل"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "صغير"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "قوي"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "سريع"
+     }
+    }
+   ],
+   "correct": [
+    "B"
+   ],
+   "explanation": {
+    "ar": "ضد كبير: صغير"
+   }
+  },
+  {
+   "code": "J007",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "أي كلمة من الكلمات التالية فعل؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "قلم"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "في"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "كَتَبَ"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "جميل"
+     }
+    }
+   ],
+   "correct": [
+    "C"
+   ],
+   "explanation": {
+    "ar": "كَتَبَ فعل ماضٍ"
+   }
+  },
+  {
+   "code": "J008",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "في أي شهر يصوم المسلمون؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "شعبان"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "رجب"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "شوال"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "رمضان"
+     }
+    }
+   ],
+   "correct": [
+    "D"
+   ],
+   "explanation": {
+    "ar": "يصوم المسلمون شهر رمضان"
+   }
+  },
+  {
+   "code": "J009",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "«ذهبَ الطالبُ إلى المدرسةِ». ما الفاعل في الجملة؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "ذهب"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "الطالبُ"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "إلى"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "المدرسةِ"
+     }
+    }
+   ],
+   "correct": [
+    "B"
+   ],
+   "explanation": {
+    "ar": "الفاعل هو: الطالبُ"
+   }
+  },
+  {
+   "code": "J010",
+   "qtype": "single_choice",
+   "time_limit_s": 30,
+   "points": 1,
+   "prompt": {
+    "ar": "كم عدد أيام الأسبوع؟"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "ar": "سبعة"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "ar": "خمسة"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "ar": "ستة"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "ar": "ثمانية"
+     }
+    }
+   ],
+   "correct": [
+    "A"
+   ],
+   "explanation": {
+    "ar": "أيام الأسبوع سبعة"
+   }
+  }
+ ]
+}

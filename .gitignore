@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+firmware/*/.pio/
+desktop/build/
+desktop/dist/
+desktop/*.spec
+desktop/.venv-build/
+
+# local outputs
+*.zip
+.DS_Store
+.claude/
+*-png/
