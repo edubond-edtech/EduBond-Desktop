@@ -88,11 +88,11 @@ jobs:
           path: out
           merge-multiple: true
       - name: List files
-        run: ls -la out
+        run: ls -laR out
       - uses: softprops/action-gh-release@v2
         with:
           name: EduKit ${{ github.ref_name }}
-          files: out/*
+          files: out/**/*
           generate_release_notes: true
           body: |
             **Windows:** download `EduKit-Setup-*.exe` and run it. If Windows shows «Windows protected your PC», click *More info* → *Run anyway*.
